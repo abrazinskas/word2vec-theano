@@ -1,0 +1,6 @@
+# this file contains global variables that are shared around files
+IGNORED_TOKEN = "<IGNORED_TOKEN>"
+START_TOKEN = "<START>"
+END_TOKEN = "<END>"
+SUBSAMPLING_THRESHOLD = 10e-5
+SPECIAL_SYMBOLS = [IGNORED_TOKEN, START_TOKEN, END_TOKEN]
